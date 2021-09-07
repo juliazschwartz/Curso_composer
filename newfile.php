@@ -36,3 +36,7 @@ foreach ($cursos as $curso){
  * O segundo número são mudanças menores, compatíveis com as outras versões
  * Correção de bugs: ultimo número.
  */
+
+
+/* Por padrão, o Composer têm adicionado um circunflexo (^) nos nossos códigos (nas definições das versões dos pacotes, no arquivo .json).
+ Ele é utilizado para informar que queremos baixar a versão especificada até a próxima "major version", ou seja, até o momento em que a compatibilidade quebra */
