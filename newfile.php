@@ -1,12 +1,14 @@
 <?php
 
-require 'vendor/autoload.php';   //precisamos desse autoload.
-require 'buscador.php';
+namespace Julia\Buscador_cursos;
+require_once 'vendor/autoload.php';   //precisamos desse autoload.
 
 
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 
+//Primeira coisa no prompt:   Pasta do projeto --> composer init. Cria o composer.
+//Aí, damos os requires dos composers que pegamos no packgist, necessarios para nosso programa. Esse require vem escrito na página do packgist.
 //o Composer tem um arquivo 'autoload.php', que faz o trabalho necessário para definir um autoload de classes de forma que seja possível utilizar
 //as dependências sem incluir seus arquivos separadamente.
 

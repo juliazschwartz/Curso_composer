@@ -1,6 +1,6 @@
 <?php
 
-
+namespace Julia\Buscador_cursos;
 use GuzzleHttp\ClientInterface;
 use Symfony\Component\DomCrawler\Crawler;
 
