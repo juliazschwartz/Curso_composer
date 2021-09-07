@@ -1,0 +1,16 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"Julia\\Buscador_cursos\\" : "src"
+		}
+	},
+	"name" : "julia/buscador_cursos",
+	"description" : "projeto que busca cursos na plataforma",
+	"type" : "library",
+	"require" : {
+		"php" : ">=7.4",
+		"symfony/css-selector": "^5.3",
+		"guzzlehttp/guzzle": "^7.3",
+		"symfony/dom-crawler": "^5.3"
+	}
+}
